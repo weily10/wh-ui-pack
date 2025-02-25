@@ -1,13 +1,22 @@
 <template>
-    <button type="button" class="btn w-btn-primary">
+    <button type="button" class="btn">
         <slot />
     </button>
 </template>
 
 <style lang="scss" scoped>
-.w-btn-primary{
+.w-btn-primary {
+    color: white;
     background-color: $primary-color;
-    color: white
+
+    &:hover {
+        color: white;
+        background-color: $hover-color;
+    }
 }
- 
+
+.w-btn-outline-primary {
+    background-color: white;
+    border: 1px solid $primary-color;
+}
 </style>

@@ -1,7 +1,7 @@
 {
   "name": "wh-ui-pack",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/wh-ui-pack.umd.js",
   "module": "./dist/wh-ui-pack.es.js",
   "exports": {
